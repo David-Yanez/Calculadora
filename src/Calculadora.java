@@ -60,7 +60,7 @@ Calculadora() {   // Metodo constructor
 	resta.addActionListener(new resta());
 	
 	principal.add(multiplicacion);
-	multiplicacion.setBounds(250, 200, 70, 50);
+	multiplicacion.setBounds(250, 200, 100, 50);
 	multiplicacion.addActionListener(new multiplicacion());
 	
 	principal.add(division);
