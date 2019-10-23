@@ -113,9 +113,9 @@ class multiplicacion implements ActionListener {
 
 			num1=Integer.parseInt (numero1.getText());
 			num2=Integer.parseInt (numero2.getText());
-			multiplicacion = num1 * num2;
+			multiplicacion = num1 * num2 * num2;
 			numero3.setText(Integer.toString(multiplicacion));
-		//JerssonAndrango	
+			
 
 		}
 }
